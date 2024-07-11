@@ -1,6 +1,6 @@
+ForoHub
 
-Foro Hub
-Foro Hub es una aplicación de gestión de tópicos basada en Spring Boot que permite a los usuarios crear, leer, actualizar y eliminar tópicos en un sistema de foro.
+ForoHub es una aplicación de gestión de tópicos basada en Spring Boot que permite a los usuarios crear, leer, actualizar y eliminar tópicos en un sistema de foro.
 
 Funcionalidades
 Autenticación y Autorización: Implementación de autenticación de usuarios utilizando JSON Web Tokens (JWT).
@@ -13,26 +13,7 @@ Spring Security
 Spring Data JPA
 MySQL
 JSON Web Tokens (JWT)
-Configuración
-Para ejecutar localmente el proyecto, asegúrate de tener configurado Java y MySQL.
 
-Clona el repositorio desde GitHub:
-
-bash
-Copiar código
-git clone https://github.com/tu-usuario/ForoHubTwo.git
-Configura la base de datos MySQL en application.properties:
-
-bash
-Copiar código
-spring.datasource.url=jdbc:mysql://localhost:3306/forohubtwo
-spring.datasource.username=usuario
-spring.datasource.password=contraseña
-Ejecuta la aplicación utilizando Maven:
-
-arduino
-Copiar código
-mvn spring-boot:run
 Uso
 Una vez que la aplicación esté en funcionamiento, puedes interactuar con ella a través de Postman u otra herramienta similar para realizar peticiones HTTP a los diferentes endpoints proporcionados.
 
@@ -42,10 +23,8 @@ POST /topicos: Crea un nuevo tópico.
 GET /topicos: Obtiene todos los tópicos.
 PUT /topicos/{id}: Actualiza un tópico existente por su ID.
 DELETE /topicos/{id}: Elimina un tópico por su ID.
-
 Contribuciones
 Las contribuciones al proyecto son bienvenidas. Si encuentras algún problema o tienes alguna mejora que proponer, por favor crea un issue o envía un pull request.
 
 Licencia
 Este proyecto está bajo la licencia MIT.
-
